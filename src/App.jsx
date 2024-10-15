@@ -8,6 +8,7 @@ import { fetchAllData } from './Actions/DataAction';
 import Loading from './components/Loading/Loading';
 
 const App = () => {
+  console.log("mai zinda hu")
   const dispatch = useDispatch();
   const {allTickets} = useSelector(state => state.DataReducer);
    
